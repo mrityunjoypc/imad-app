@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.send(File(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 app.get('/article1', function (req, res) {
