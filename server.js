@@ -20,11 +20,13 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/article1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
 });
-app.get('/article2', function (req, res) {
-  res.send("Article 2 requested!")
+
+app.get('/ui/article2.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
 });
-app.get('/article3', function (req, res) {
-  res.send("Article 3 requested!")
+
+app.get('/ui/article3.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article3.html'));
 });
 
 
