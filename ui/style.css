@@ -31,8 +31,15 @@ body {
         padding-left:20px;
         padding-right:20px;
     }
-.headerButton{
-                display:inline;
-                background-color:grey;
-                border: 1px;
+
+.headerButton a {
+    display: inline;
+    background-color: #8ea7f9;
+    color: ghostwhite;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 4px;
+    font-family: century;
+    
 }
+    
