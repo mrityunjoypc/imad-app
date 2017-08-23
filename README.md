@@ -1,3 +1,4 @@
 # imad-app
 
-IMAD course application.
+.
+url: http://mrityunjoypc.imad.hasura-app.io/
