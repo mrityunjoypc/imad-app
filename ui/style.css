@@ -21,3 +21,13 @@ body {
     height: 200px;
 }
 
+.container{
+        max-width:800px;
+        margin: 0 auto;
+        color:black;
+        background-color: #bbaf9d;
+        font-family:Libre Franklin;
+        padding-top:60px;
+        padding-left:20px;
+        padding-rightL20px;
+    }
