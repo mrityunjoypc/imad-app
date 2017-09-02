@@ -11,5 +11,6 @@ var image = document.getElementById('img-logo');
 
 image.onclick = function() {
     image.style.marginleft = "100px";
+    element.style.color = 'blue';
 };
 
