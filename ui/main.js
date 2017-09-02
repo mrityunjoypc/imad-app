@@ -10,6 +10,6 @@ element.innerHTML = "This text is changed through JavaScript!!";
 var image = document.getElementById('img-logo');
 
 image.onclick = function() {
-    image.style.marginleft = "200px";
+    image.style.marginleft = "100px";
 };
 
