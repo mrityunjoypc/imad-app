@@ -7,10 +7,9 @@ element.innerHTML = "This text is changed through JavaScript!!";
 
 //Play around with the image css
 
-var img = document.getElementById('img-logo');
-img.onclick() = function() {
-    img.style.background-color = 'blue';
-    img.style.border = 'ridge';
-    
-    
+var image = document.getElementById('img-logo');
+
+image.onclick() = function() {
+    image.style.marginleft = "200px";
 };
+
