@@ -25,5 +25,5 @@ function moveRight(){
 image.onclick = function() {
     image.style.marginLeft = "10%";
     element.style.color = 'green';
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,50);
 };
