@@ -13,7 +13,7 @@ image.onclick = function() {
     image.style.marginLeft = "10%";
     element.style.color = 'green';
 
-moveRight(){
+function moveRight(){
     var siz = 0
     siz = marginLeft + 20;
     image.style.marginLeft = siz + 'px';
