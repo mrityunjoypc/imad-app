@@ -10,7 +10,16 @@ element.innerHTML = "This text is changed through JavaScript!!";
 var image = document.getElementById('img-logo');
 
 image.onclick = function() {
-    image.style.marginleft = "10%";
+    image.style.marginLeft = "10%";
     element.style.color = 'green';
+
+moveRight(){
+    var siz = 0
+    siz = marginLeft + 20;
+    image.style.marginLeft = siz + 'px';
+    
+}
+    
+    var interval = setInterval(moveRight,100);
 };
 
