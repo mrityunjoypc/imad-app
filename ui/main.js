@@ -14,7 +14,7 @@ var image = document.getElementById('img-logo');
 var siz = 0
 function moveRight(){
     
-    siz = marginleft + 20;
+    siz = siz + 20;
     image.style.marginLeft = siz + 'px';
     
 }
