@@ -9,11 +9,8 @@ element.innerHTML = "This text is changed through JavaScript!!";
 
 var image = document.getElementById('img-logo');
 
-image.onclick = function() {
-    image.style.marginLeft = "10%";
-    element.style.color = 'green';
 
-};
+
 var siz = 0
 function moveRight(){
     
@@ -22,6 +19,11 @@ function moveRight(){
     
 }
     
+    
+
+
+image.onclick = function() {
+    image.style.marginLeft = "10%";
+    element.style.color = 'green';
     var interval = setInterval(moveRight,100);
-
-
+};
