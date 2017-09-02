@@ -20,5 +20,6 @@ function moveRight(){
 image.onclick = function() {
     image.style.marginLeft = "10%";
     element.style.color = 'green';
+    element.innerHTML = "The text is changed again when image is clicked, also the image is moving.";
     var interval = setInterval(moveRight,50);
 };
