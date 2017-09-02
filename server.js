@@ -17,6 +17,12 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+// This loads the main.js file.
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
+
 app.get('/ui/article1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
 });
