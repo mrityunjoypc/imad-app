@@ -22,6 +22,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+// This loads the JsExample.js file.
 app.get('/ui/JsExample.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'JsExample.js'));
 });
