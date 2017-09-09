@@ -8,7 +8,7 @@ element.innerHTML = "This text is changed through JavaScript!! \n now click on t
 //Play around with the css of web elements
 
 var image = document.getElementById('img-logo');
-var siz = 0
+var siz = 0;
 
 function moveRight(){
     
