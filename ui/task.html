@@ -5,7 +5,16 @@
         <title> Task </title>
         <link href="/ui/style.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        
+        <style>
+            #taskDiv{
+                background-color:wheat;
+                color:teal;
+                
+                
+            }
+            
+            
+        </style>
         
     </head>
     <body>
@@ -22,7 +31,22 @@
         <li>Click on a button to send the data</li>
         <li>Server responds with the list of all emails.</li>
         <li>All emails will be shown as bulleted list.</li>
+        <hr>
         
+        
+        
+        <div id="taskDiv">
+            <input type="text" id='inp' placeholder="enter your name"></input>
+            <input type="submit" value="Submit"></input>
+            
+            <ul>
+            <li>name1</li>
+            <li>name2</li>
+            <li>name3</li>
+            <li>name4</li>
+            </ul>
+
+        </div>
          
        
         <script type="text/javascript" src="task.js">
