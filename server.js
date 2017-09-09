@@ -54,7 +54,7 @@ app.get('/counter', function (req, res) {
 var counter2 = 0 // this is to initialize the counter
 
 app.get('/ui/counter', function (req, res) {
-  counter = counter2 + 1;
+  counter2 = counter2 + 1;
   res.send(counter2.toString());
   
 });
