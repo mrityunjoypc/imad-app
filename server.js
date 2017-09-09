@@ -43,14 +43,6 @@ app.get('/ui/JsExample.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'JsExample.html'));
 });
 
-var counter = 0 // this is to initialize the counter
-
-app.get('/counter', function (req, res) {
-  counter = counter + 1;
-  res.send(counter.toString());
-  
-});
-
 var counter2 = 0 // this is to initialize the counter
 
 app.get('/ui/counter', function (req, res) {
