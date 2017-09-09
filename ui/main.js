@@ -25,7 +25,7 @@ image.onclick = function() {
 };
 
 
-
+var counter = 0;
 var button = document.getElementById('countBut');
 button.onclick = function(){
     
