@@ -45,6 +45,12 @@ app.get('/ui/JsExample.html', function (req, res) {
 
 
 
+var counter2 = 0 // this is to initialize the counter
+app.get('/ui/counter', function (req, res) {
+  counter2 = counter2 + 1;
+  res.send(counter2.toString());
+  
+});
 
 
 // Do not change port, otherwise your app won't run on IMAD servers
