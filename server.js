@@ -39,6 +39,18 @@ app.get('/ui/JsExample.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'JsExample.html'));
 });
 
+var counter = 0 // this is to initialize the counter
+
+app.get('/counter', function (req, res) {
+  counter = counter + 1;
+  res.send(counter.toString());
+  
+});
+
+
+
+
+
 
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
