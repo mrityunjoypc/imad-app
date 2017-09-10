@@ -22,10 +22,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-// This loads the JsExample.js file.
-app.get('/ui/JsExample.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'JsExample.js'));
-});
+
 
 app.get('/ui/article1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
@@ -55,6 +52,16 @@ app.get('/ui/counter', function (req, res) {
   
 });
 
+// This loads the JsExample.js file.
+app.get('/ui/JsExample.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'JsExample.js'));
+});
+
+
+// This loads the JsExample.js file.
+app.get('/ui/task.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'task.js'));
+});
 
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
