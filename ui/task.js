@@ -1,6 +1,7 @@
 
 var nameInp = documen.getElementById('inp');
 var name = nameInp.value;
+var submit = document.getElementById('submit-btn');
 submit.onclick = function(){
 
 
